@@ -53,6 +53,13 @@ const Login = () => {
         />
         <button>Sign In</button>
       </form>
+      <p>
+        Need an Account? <br/>
+        <span className="line">
+            {/* put router link here */}
+            <a href="#">Sign Up</a>
+        </span>
+      </p>
     </section>
   );
 };
