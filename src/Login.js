@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef, useState, useEffect } from "react";
-import "./index.css"
+import "./index.css";
 
 const Login = () => {
   const userRef = useRef();
@@ -19,6 +19,14 @@ const Login = () => {
     setErrMsg("");
   }, [user, pwd]);
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log(user,pwd);
+    setUser('');
+    setPwd('');
+    setSuccess(true);
+  };
+
   return (
     <section>
       <p
@@ -29,7 +37,7 @@ const Login = () => {
         {errMsg}
       </p>
       <h1>Sign In</h1>
-      <form>
+      <form onSubmit={handleSubmit}>
         <label htmlFor="username">Username:</label>
         <input
           type="text"
@@ -55,10 +63,10 @@ const Login = () => {
         <button>Sign In</button>
       </form>
       <p>
-        Need an Account? <br/>
+        Need an Account? <br />
         <span className="line">
-            {/* put router link here */}
-            <a href="#">Sign Up</a>
+          {/* put router link here */}
+          <a href="#">Sign Up</a>
         </span>
       </p>
     </section>
