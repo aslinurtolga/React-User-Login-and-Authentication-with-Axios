@@ -18,12 +18,16 @@ html {
   padding: 0.5rem;
   margin-bottom: 0.5rem;
 }
+
 body {
   min-height: 100vh;
-  background: url('https://metamy.com.tr/wp-content/uploads/2023/05/metamy2.png') ;
+  margin: 0;
+  background: url('https://metamy.com.tr/wp-content/uploads/2023/05/metamy2.png');
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100% auto; /* Yatayda genişletmek için */
 }
+
 
 .line {
   display: inline-block;

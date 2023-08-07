@@ -1,14 +1,24 @@
 .card-container {
   width: 300px;
   overflow: hidden;
-  box-shadow: 0px 0px 15px -5px;
-  transition: 0.5s;
-  animation: ease-in;
+  /* box-shadow: 0px 0px 15px -5px; */
+  /* transition: 0.5s;
+  animation: ease-in; */
+  background-color: rgb(
+    255,
+    255,
+    255
+  ); /* Background rengini beyaz olarak ayarladık */
+  border-radius: 15px; /* Kenar yuvarlatma (border radius) değerini 15px olarak ayarladık */
+  margin-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .card-container:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
   box-shadow: 0px 0px 15px -5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
 
 .image-container img {
@@ -30,6 +40,8 @@ p {
 
 .card-title {
   margin-bottom: 0.5rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
 }
 
 .btn {
@@ -39,21 +51,31 @@ p {
 
 .btn button {
   padding: 0.5rem;
-  background-color: wheat;
+  background-color: #446084;
   border: none;
   transition: 0.2s;
   margin-bottom: 0.5rem;
   border-radius: 3px;
+  border-radius: 99px
 }
 
 .btn button:hover {
-  background: rgba(27, 156, 252, 0.1);
-  transform: scale(1.1);
+  background: #374e6b;
+  /* transform: scale(1.1); */
 }
 
 a {
-  text-transform: uppercase;
-  color: blueviolet;
+  color: white;
   text-decoration: none;
-  font-weight: bold;
+  width: 10px;
+  height: 10px;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-body {
+  color: black;
 }
