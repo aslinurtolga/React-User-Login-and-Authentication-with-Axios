@@ -11,22 +11,22 @@ function App() {
       <div className="card-row">
         <Card
           title="Courses"
-          imageUrl="https://img.icons8.com/?size=512&id=Hvn8YMeqLM0U&format=png"
+          imageUrl="https://fpdl.in/uploads/20230807180909_[fpdl.in]_education-distance-learning-e-learning-online-learning-are-all-types-personal-development_27634-789_large.jpg"
           // body=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, voluptas?"
         />
         <Card
           title="Resources"
-          imageUrl="https://img.icons8.com/?size=512&id=QAZ1r1PFVZoh&format=png"
+          imageUrl="https://fpdl.in/uploads/20230807180945_[fpdl.in]_global-networking-global-business-network-technology-element-this-image-are-furnished-by-nasa_123766-145_large.jpg"
           // body=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, voluptas?"
         />
         <Card
           title="Cheat Sheet"
-          imageUrl="https://img.icons8.com/?size=512&id=czjrXqcNXo9C&format=png"
+          imageUrl="https://fpdl.in/uploads/20230807181516_[fpdl.in]_businessman-hand-using-laptop-computer-with-data-folder-file-icon-information-exchange-transfer-concept_50039-4914_large.jpg"
           // body=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, voluptas?"
         />
         <Card
           title="Question Bank"
-          imageUrl="https://img.icons8.com/?size=512&id=1YKSEjIedMKa&format=png"
+          imageUrl="https://fpdl.in/uploads/20230807164105_[fpdl.in]_abstract-virtual-question-mark-illustration-stacks-coins-background-faq-search-concept-multiexposure_258654-9887_large.jpg"
           // body=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, voluptas?"
         />
       </div>

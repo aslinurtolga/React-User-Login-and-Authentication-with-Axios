@@ -22,7 +22,7 @@ html {
 body {
   min-height: 100vh;
   margin: 0;
-  background: url('https://metamy.com.tr/wp-content/uploads/2023/05/metamy2.png');
+  background: url('./images/bg2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto; /* Yatayda genişletmek için */
