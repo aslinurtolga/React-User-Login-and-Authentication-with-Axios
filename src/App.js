@@ -10,24 +10,24 @@ function App() {
       {/* <Login/> */}
       <div className="card-row">
         <Card
-          title="Card Title"
-          imageUrl="./images/içerik.png"
-          body=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, voluptas?"
+          title="Courses"
+          imageUrl="https://img.icons8.com/?size=512&id=Hvn8YMeqLM0U&format=png"
+          // body=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, voluptas?"
         />
         <Card
-          title="Card Title"
-          imageUrl="./images/içerik.png"
-          body=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, voluptas?"
+          title="Resources"
+          imageUrl="https://img.icons8.com/?size=512&id=QAZ1r1PFVZoh&format=png"
+          // body=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, voluptas?"
         />
         <Card
-          title="Card Title"
-          imageUrl="./images/içerik.png"
-          body=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, voluptas?"
+          title="Cheat Sheet"
+          imageUrl="https://img.icons8.com/?size=512&id=czjrXqcNXo9C&format=png"
+          // body=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, voluptas?"
         />
         <Card
-          title="Card Title"
-          imageUrl="./images/içerik.png"
-          body=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, voluptas?"
+          title="Question Bank"
+          imageUrl="https://img.icons8.com/?size=512&id=1YKSEjIedMKa&format=png"
+          // body=" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, voluptas?"
         />
       </div>
     </main>
