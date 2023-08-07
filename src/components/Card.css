@@ -9,7 +9,7 @@
   /* Background rengini beyaz olarak ayarladık */
   border-radius: 15px; /* Kenar yuvarlatma (border radius) değerini 15px olarak ayarladık */
   margin-right: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
 }
 
 .card-container:hover {
